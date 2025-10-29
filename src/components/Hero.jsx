@@ -19,17 +19,16 @@ const Hero = () => {
               Hi, I'm{' '}
               <span className="text-gold">Supriya</span>
             </h1>
-            <h2 className="text-2xl md:text-3xl text-navy font-semibold">
-              Banetiya
-            </h2>
-
+        
             <div className="flex flex-wrap gap-3 mb-6">
               <span className="px-4 py-2 bg-navy text-white rounded-full text-sm font-medium">
-                E-commerce Specialist
+                E-commerce Growth Specialist
               </span>
               <span className="px-4 py-2 bg-gold/10 text-navy rounded-full text-sm font-medium">
-                Amazon & Flipkart
+              Marketplace Expert
+
               </span>
+             
             </div>
 
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
@@ -67,7 +66,7 @@ const Hero = () => {
                 <div className="text-sm text-gray-600">Years Experience</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-navy mb-1">2</div>
+                <div className="text-4xl font-bold text-navy mb-1">6+</div>
                 <div className="text-sm text-gray-600">Platforms</div>
               </div>
               <div>

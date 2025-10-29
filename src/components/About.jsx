@@ -13,7 +13,7 @@ const About = () => {
               <div className="w-96 h-96 rounded-full bg-gray-100 flex items-center justify-center overflow-hidden">
                 <img
                   src="./a.jpg"
-                  alt="Supriya Banetiya - E-commerce Specialist"
+                  alt="Supriya - E-commerce Specialist"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -22,16 +22,11 @@ const About = () => {
             <div className="flex-1 text-center md:text-left">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 Results-driven professional with{' '}
-                <strong className="text-navy">4+ years</strong> of experience in
-                online sales, inventory & order management, customer support and
-                logistics coordination on{' '}
-                <strong className="text-gold">Amazon & Flipkart</strong>.
+                <strong className="text-navy">4+ years</strong> of experience building and scaling online businesses across{' '}
+                <strong className="text-gold">Amazon, Flipkart, Meesho, JioMart, Blinkit, and Myntra                </strong>.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                I specialize in managing end-to-end e-commerce operations,
-                ensuring seamless order fulfillment, maintaining optimal inventory
-                levels, and delivering exceptional customer experiences that drive
-                business growth and customer loyalty.
+                Specialized in account setup, catalog optimization, product listings, and performance strategy that turn visitors into loyal customers. Focused on driving measurable growth and operational excellence for every brand I work with.
               </p>
               <div className="grid grid-cols-2 gap-4 text-center">
                 <div className="bg-black p-6 rounded-lg text-white">
@@ -39,7 +34,7 @@ const About = () => {
                   <div className="text-sm opacity-90">Years Experience</div>
                 </div>
                 <div className="btn-outline p-6 rounded-lg text-navy bg-transparent border-2 border-navy hover:bg-navy hover:text-white transition-colors duration-300">
-                  <div className="text-3xl font-bold mb-1">2</div>
+                  <div className="text-3xl font-bold mb-1">6+</div>
                   <div className="text-sm opacity-90">Platforms</div>
                 </div>
               </div>
