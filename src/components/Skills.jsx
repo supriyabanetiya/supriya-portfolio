@@ -1,7 +1,7 @@
 const Skills = () => {
   const skills = [
     {
-      name: 'E-commerce Operations (Amazon/Flipkart)',
+      name: 'E-commerce Operations',
       level: 95,
       icon: 'fas fa-shopping-cart',
     },

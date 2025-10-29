@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
+import Achievements from './components/Achievements'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
 
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Experience />
       <Skills />
+      <Achievements />
 
       <Contact />
       <Footer />

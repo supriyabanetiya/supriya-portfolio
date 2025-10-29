@@ -89,7 +89,7 @@ const Contact = () => {
         <div className="w-24 h-1 bg-gold mx-auto mb-8"></div>
 
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
             <div>
               <h3 className="text-2xl font-bold text-navy mb-6">
                 Let's Connect
@@ -106,16 +106,16 @@ const Contact = () => {
                     href={info.link}
                     target={info.type === 'LinkedIn' || info.type === 'GitHub' ? '_blank' : undefined}
                     rel={info.type === 'LinkedIn' || info.type === 'GitHub' ? 'noopener noreferrer' : undefined}
-                    className="flex items-center gap-4 p-4 bg-gradient-to-r from-gray-50 to-white rounded-lg hover:shadow-lg transition-all duration-300 group"
+                    className="flex items-center gap-2 md:gap-4 p-3 md:p-4 bg-gradient-to-r from-gray-50 to-white rounded-lg hover:shadow-lg transition-all duration-300 group"
                   >
-                    <div className="w-12 h-12 bg-gradient-to-br from-gold to-navy rounded-full flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-gold to-navy rounded-full flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300">
                       {info.icon}
                     </div>
-                    <div>
-                      <p className="text-sm text-gray-500 font-medium">
+                    <div className="flex-1 min-w-0">
+                      <p className="text-xs md:text-sm text-gray-500 font-medium">
                         {info.type}
                       </p>
-                      <p className="text-navy font-semibold group-hover:text-gold transition-colors">
+                      <p className="text-sm md:text-base text-navy font-semibold group-hover:text-gold transition-colors truncate">
                         {info.value}
                       </p>
                     </div>
@@ -125,9 +125,9 @@ const Contact = () => {
             </div>
 
             <div>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-semibold text-navy mb-2">
+                  <label htmlFor="name" className="block text-sm font-semibold text-navy mb-1 md:mb-2">
                     Name
                   </label>
                   <input
@@ -137,13 +137,13 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold focus:border-transparent transition-all duration-300"
+                    className="w-full px-2 py-1 md:px-4 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold focus:border-transparent transition-all duration-300"
                     placeholder="Your Name"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-semibold text-navy mb-2">
+                  <label htmlFor="email" className="block text-sm font-semibold text-navy mb-1 md:mb-2">
                     Email
                   </label>
                   <input
@@ -153,13 +153,13 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold focus:border-transparent transition-all duration-300"
+                    className="w-full px-2 py-1 md:px-4 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold focus:border-transparent transition-all duration-300"
                     placeholder="your.email@example.com"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-semibold text-navy mb-2">
+                  <label htmlFor="message" className="block text-sm font-semibold text-navy mb-1 md:mb-2">
                     Message
                   </label>
                   <textarea
@@ -168,8 +168,8 @@ const Contact = () => {
                     value={formData.message}
                     onChange={handleChange}
                     required
-                    rows="6"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold focus:border-transparent transition-all duration-300 resize-none"
+                    rows="3"
+                    className="w-full px-2 py-1 md:px-4 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold focus:border-transparent transition-all duration-300 resize-none"
                     placeholder="Your message here..."
                   ></textarea>
                 </div>

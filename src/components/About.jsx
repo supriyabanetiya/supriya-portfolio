@@ -10,7 +10,7 @@ const About = () => {
 
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="flex-shrink-0 ml-4">
-              <div className="w-96 h-96 rounded-full bg-gray-100 flex items-center justify-center overflow-hidden">
+              <div className="w-64 h-64 md:w-96 md:h-96 rounded-full bg-gray-100 flex items-center justify-center overflow-hidden">
                 <img
                   src="./a.jpg"
                   alt="Supriya - E-commerce Specialist"
