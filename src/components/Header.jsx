@@ -6,6 +6,7 @@ const Header = () => {
   const [activeSection, setActiveSection] = useState('')
 
   const navItems = [
+    { name: 'Home', href: '#hero' },
     { name: 'About', href: '#about' },
     { name: 'Experience', href: '#experience' },
     { name: 'Skills', href: '#skills' },
@@ -49,13 +50,13 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-4 left-1/2 transform -translate-x-1/2 z-50 transition-all duration-300 rounded-b-2xl max-w-7xl bg-white/10 backdrop-blur-md shadow-lg py-3`}
+      className={`fixed top-4 left-1/2 transform -translate-x-1/2 z-50 transition-all duration-300 rounded-b-2xl max-w-screen-xl bg-white/10 backdrop-blur-md shadow-lg py-3`}
     >
       <nav className="container-custom px-4">
         <div className="flex items-center justify-between">
           <a
             href="#hero"
-            className="text-2xl font-bold text-navy hover:text-gold transition-colors duration-300 mr-12"
+            className="text-2xl font-bold text-navy hover:text-gold transition-colors duration-300 mr-96"
           >
             Supriya<span className="text-gold">B.</span>
           </a>

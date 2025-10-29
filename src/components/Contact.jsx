@@ -85,7 +85,8 @@ const Contact = () => {
         <h2 className="text-4xl md:text-5xl font-bold text-center text-navy mb-4">
           Get In <span className="text-gold">Touch</span>
         </h2>
-        <div className="w-24 h-1 bg-gold mx-auto mb-16"></div>
+        <p className="text-center text-gray-500 text-sm mb-8">Want to grow your e-commerce business</p>
+        <div className="w-24 h-1 bg-gold mx-auto mb-8"></div>
 
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
