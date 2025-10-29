@@ -29,16 +29,22 @@ const Achievements = () => {
       description: 'Successfully executed product listings, customer support & order operations for multiple e-commerce businesses.'
     },
     {
-      number: 4,
+      number: 50,
       suffix: '+',
-      title: 'YEARS EXPERIENCE',
-      description: 'Professional background in logistics, stock management & e-commerce operations.'
+      title: 'ORDERS HANDLED DAILY',
+      description: 'Managed complete order fulfillment ensuring timely dispatch.'
     },
     {
-      number: 90,
+      number: 5000,
       suffix: '+',
-      title: 'HAPPY CLIENTS',
-      description: 'Maintained strong client relationships with high satisfaction & quality service delivery.'
+      title: 'CUSTOMER QUERIES RESOLVED',
+      description: 'Delivered fast responses boosting customer satisfaction.'
+    },
+    {
+      number: 100,
+      suffix: '%',
+      title: 'INVENTORY ACCURACY',
+      description: 'Maintained stock updates with zero mismatch tolerance.'
     }
   ]
 
@@ -46,7 +52,7 @@ const Achievements = () => {
     <section id="achievements" className="py-20 bg-transparent">
       <div className="container-custom px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
             {stats.map((stat, index) => (
               <motion.div
                 key={index}
