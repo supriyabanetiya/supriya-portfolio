@@ -25,7 +25,7 @@ const Hero = () => {
                 E-commerce Growth Specialist
               </span>
               <span className="px-4 py-2 bg-gold/10 text-navy rounded-full text-sm font-medium">
-              Marketplace Expert
+              Multiple Marketplace Expert
 
               </span>
              
