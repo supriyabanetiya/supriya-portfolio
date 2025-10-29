@@ -83,7 +83,7 @@ const Hero = () => {
               {/* Image Container */}
               <div className="relative w-full h-full overflow-hidden bg-white">
                 <img
-                  src="/e.png"
+                  src="./e.png"
                   alt="Supriya Banetiya"
                   className="w-full h-full object-contain"
                   style={{ display: 'block', minWidth: '100%', minHeight: '100%' }}

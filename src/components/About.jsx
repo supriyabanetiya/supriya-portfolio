@@ -12,7 +12,7 @@ const About = () => {
             <div className="flex-shrink-0 ml-4">
               <div className="w-96 h-96 rounded-full bg-gray-100 flex items-center justify-center overflow-hidden">
                 <img
-                  src="/a.jpg"
+                  src="./a.jpg"
                   alt="Supriya Banetiya - E-commerce Specialist"
                   className="w-full h-full object-cover"
                 />
