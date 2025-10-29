@@ -1,4 +1,4 @@
-# Supriya Banetiya - Portfolio Website
+# Supriya - Portfolio Website
 
 A modern, responsive portfolio website built with React + Vite + Tailwind CSS, showcasing the professional profile of Supriya Banetiya, an E-commerce & Store Specialist.
 
