@@ -2,7 +2,7 @@ const Hero = () => {
   const handleDownloadResume = () => {
     const link = document.createElement('a')
     link.href = '/resume.pdf'
-    link.download = 'Supriya_Banetiya_Resume.pdf'
+    link.download = 'Resume.pdf'
     link.click()
   }
 
