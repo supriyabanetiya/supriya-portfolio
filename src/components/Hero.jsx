@@ -1,7 +1,7 @@
 const Hero = () => {
   const handleDownloadResume = () => {
     const link = document.createElement('a')
-    link.href = '/resume.pdf'
+    link.href = '/supriya-portfolio/resume.pdf'
     link.download = 'Resume.pdf'
     link.click()
   }
