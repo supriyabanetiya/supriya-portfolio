@@ -17,7 +17,7 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <Experience />
+      {/* <Experience /> */}
       <Skills />
       <Achievements />
 
