@@ -57,7 +57,7 @@ const Footer = () => {
 
             <div className="border-t border-gray-700 pt-6">
               <p className="text-gray-400 text-sm">
-                © {currentYear} Supriya Banetiya. All rights reserved.
+                © {currentYear} Supriya B. All rights reserved.
               </p>
             </div>
           </div>
