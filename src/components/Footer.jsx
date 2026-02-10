@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center">
             <h3 className="text-3xl font-bold mb-4">
-              Supriya<span className="text-gold"> Banetiya</span>
+              Supriya<span className="text-gold"> B</span>
             </h3>
             <p className="text-gray-300 mb-6">
               E-commerce & Store Specialist
@@ -15,7 +15,7 @@ const Footer = () => {
             
             <div className="flex justify-center gap-6 mb-8">
               <a
-                href="https://linkedin.com/in/supriya-banetiya-9002a9245"
+                href="https://www.linkedin.com/in/supriya-b-9002a9245"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gold rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300"
@@ -26,7 +26,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="mailto:supriyabanetiya03@gmail.com"
+                href="mailto:supriya.ecom1@gmail.com"
                 className="w-10 h-10 bg-gold rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300"
                 aria-label="Email"
               >
@@ -43,7 +43,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://github.com/supriyabanetiya"
+                href="https://github.com/Supriyab03"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gold rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300"
